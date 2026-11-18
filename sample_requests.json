@@ -1,0 +1,102 @@
+[
+  {
+    "request_id": "REQ-001",
+    "customer_name": "Ada Okafor",
+    "email": "ada.okafor@example.com",
+    "message": "I cannot log in to my account.",
+    "created": "2026-11-02",
+    "priority": "normal",
+    "status": "open",
+    "replies": [
+      {
+        "reply_id": 1,
+        "author": "Support Agent",
+        "text": "Please try resetting your password.",
+        "replies": [
+          {
+            "reply_id": 2,
+            "author": "Ada Okafor",
+            "text": "The reset email never arrived.",
+            "replies": [
+              {"reply_id": 3, "author": "Support Agent", "text": "Checking your email address now.", "replies": []}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "request_id": "REQ-002",
+    "customer_name": "Bola Adeyemi",
+    "email": "bola.adeyemi@example.com",
+    "message": "I was charged twice for the same order.",
+    "created": "2026-11-01",
+    "priority": "high",
+    "status": "in_progress",
+    "replies": [
+      {"reply_id": 1, "author": "Support Agent", "text": "We are reviewing the payment.", "replies": []}
+    ]
+  },
+  {
+    "request_id": "REQ-003",
+    "customer_name": "Chidi Eze",
+    "email": "chidi.eze@example.com",
+    "message": "The app is very slow on my phone.",
+    "created": "2026-11-03",
+    "priority": "normal",
+    "status": "open",
+    "replies": []
+  },
+  {
+    "request_id": "REQ-004",
+    "customer_name": "Dayo Bello",
+    "email": "dayo.bello@example.com",
+    "message": "How do I change my email address?",
+    "created": "2026-11-04",
+    "priority": "normal",
+    "status": "closed",
+    "replies": [
+      {"reply_id": 1, "author": "Support Agent", "text": "Go to Settings, then Profile.", "replies": []}
+    ]
+  },
+  {
+    "request_id": "REQ-005",
+    "customer_name": "Emeka Nwosu",
+    "email": "emeka.nwosu@example.com",
+    "message": "My account was locked after too many attempts.",
+    "created": "2026-11-05",
+    "priority": "high",
+    "status": "open",
+    "replies": []
+  },
+  {
+    "request_id": "REQ-006",
+    "customer_name": "Fatima Musa",
+    "email": "fatima.musa@example.com",
+    "message": "I want to download my invoice.",
+    "created": "2026-11-05",
+    "priority": "normal",
+    "status": "open",
+    "replies": []
+  },
+  {
+    "request_id": "REQ-007",
+    "customer_name": "Ada Okafor",
+    "email": "ada.okafor@example.com",
+    "message": "Please delete my old profile photo.",
+    "created": "2026-11-06",
+    "priority": "normal",
+    "status": "open",
+    "replies": []
+  },
+  {
+    "request_id": "REQ-008",
+    "customer_name": "Grace Okon",
+    "email": "grace.okon@example.com",
+    "message": "The payment page shows an error.",
+    "created": "2026-11-07",
+    "priority": "high",
+    "status": "open",
+    "replies": []
+  }
+]
